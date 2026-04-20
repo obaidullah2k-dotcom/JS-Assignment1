@@ -1,0 +1,10 @@
+var number1 = prompt("Enter First Number");
+var number2 = prompt("Enter Second Number");
+var add = Number(number1) + Number(number2);
+var subtract = number1 - number2;
+var multiply = number1 * number2;
+var divide = number1 / number2;
+alert("Addition of " + number1 + " and " + number2 + " is equals to " + add);
+alert("Subtraction of " + number1 + " and " + number2 + " is equals to " + subtract);
+alert("multiplication of " + number1 + " and " + number2 + " is equals to " + multiply);
+alert("Division of " + number1 + " and " + number2 + " is equals to " + divide);
